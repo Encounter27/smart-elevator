@@ -9,8 +9,11 @@ const (
 	UPWARD   = DIRECTION(0)
 	DOWNWARD = DIRECTION(1)
 	PAUSED   = DIRECTION(2)
-	CLOSE    = STATUS(0)
-	OPEN     = STATUS(1)
+)
+
+const (
+	CLOSE = STATUS(0)
+	OPEN  = STATUS(1)
 )
 
 var status []string = []string{"CLOSE", "OPEN"}
